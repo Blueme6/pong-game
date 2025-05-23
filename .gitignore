@@ -1,0 +1,4 @@
+# This file can be used to prevent some files/dierctories from being added to git.
+
+# Don't commit files created by pygbag
+main/build
