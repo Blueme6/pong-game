@@ -1,4 +1,7 @@
-import pygame, sys, random
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+import pygame
+import sys
 import random
 from pygame.locals import *
 
