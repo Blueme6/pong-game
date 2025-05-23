@@ -1,7 +1,9 @@
 import pygame, sys, random
 import random
-pygame.init()
+from pygame.locals import *
 
+pygame.init()
+pygame.display.list_modes()
 WIDTH, HEIGHT = 1280, 720
 
 FONT = pygame.font.SysFont("Consolas", int(WIDTH / 20))
